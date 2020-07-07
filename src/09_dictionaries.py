@@ -52,3 +52,5 @@ for w in waypoints:
 	for key in w:
 		print(w[key])
 	print()
+
+print(waypoints[1]['lat'])
