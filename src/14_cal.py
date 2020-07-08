@@ -40,4 +40,4 @@ elif (len(sys.argv) == 2) and (1 <= len(sys.argv[1]) <= 2) and (1 <= int(sys.arg
 elif len(sys.argv) == 3:
 	print(calendar.month(int(sys.argv[2]), int(sys.argv[1])))
 else:
-	print('please input valid ( [month] [date] ) when executing your program')
+	print('please input valid ( [month] [year] ) when executing your program')
